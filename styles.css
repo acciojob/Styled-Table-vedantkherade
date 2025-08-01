@@ -1,1 +1,37 @@
+// styled table
 /* your code */
+body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    thead {
+      background-color: #1f5b89;
+      color: white;
+    }
+
+    th, td {
+      padding: 12px 16px;
+      text-align: left;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #e2e2e2;
+    }
+
+    tbody tr:nth-child(odd) {
+      background-color: #ffffff;
+    }
+
+    th {
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
